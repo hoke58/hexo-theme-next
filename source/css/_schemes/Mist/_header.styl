@@ -1,15 +1,15 @@
 // Header
 // --------------------------------------------------
 .header {
-  background: $whitesmoke;
+  background: $greenmask ;
 }
 
 .header-inner {
+  clearfix();
   align-items: center;
   display: flex;
   justify-content: center;
   padding: 20px 0;
-  clearfix();
 
   +mobile() {
     display: block;
@@ -41,38 +41,10 @@
   }
 }
 
-.logo-line-before, .logo-line-after {
-  display: block;
-  margin: 0 auto;
-  overflow: hidden;
-  width: 75%;
-
-  +mobile() {
-    display: none;
-  }
-
-  i {
-    background: $black-deep;
-    display: block;
-    height: 2px;
-    position: relative;
-
-    +mobile() {
-      height: 3px;
-    }
-  }
-}
-
-.use-motion {
-  .logo-line-before i {
-    left: -100%;
-  }
-
-  .logo-line-after i {
-    right: -100%;
-  }
-}
-
 .site-subtitle {
   display: none;
+}
+
+.site-author-name {
+  font-family: "Rock Salt";
 }

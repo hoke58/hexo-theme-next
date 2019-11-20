@@ -19,6 +19,9 @@
 
     {{ partial('_partials/widgets.swig', {}, {cache: theme.cache.enable}) }}
 
+  {%- if page.type === 'about' %}
+    {% include 'about.swig' %}
+  {%- else %}
     <main class="main">
       <div class="main-inner">
         <div class="content-wrap">
@@ -33,7 +36,7 @@
         {%- endif %}
       </div>
     </main>
-
+  {%- endif %}
     <footer class="footer">
       <div class="footer-inner">
         {{ partial('_partials/footer.swig', {}, {cache: theme.cache.enable}) }}

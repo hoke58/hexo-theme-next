@@ -64,6 +64,17 @@
   </div>
 {%- endif %}
 
+{%- if theme.footer.powered.enable and theme.footer.theme.enable and theme.footer.cdn.enable %}
+  <span class="post-meta-divider">|</span>
+{%- endif %}
+
+{%- if theme.footer.cdn.enable %}
+  <div class="cdn-by">
+  <span style="display: inline-block;vertical-align: middle;">{{- __('footer.cdn') }}</span>
+  <a class="theme-link" href="{{ url_for(theme.footer.cdn.link) }}" title="又拍云提供 CDN 服务" rel="external nofollow noopener noreferrer" target="_blank" style="display: inline-block;border: none;vertical-align: middle;"><img src="{{ url_for(theme.footer.cdn.logo) }}" style="width:50px"></a>
+  </div>
+{%- endif %}
+
 {%- if theme.add_this_id %}
   <div class="addthis_inline_share_toolbox">
     <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ theme.add_this_id }}" async="async"></script>

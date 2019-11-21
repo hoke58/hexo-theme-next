@@ -49,6 +49,8 @@ footer:
   theme: Theme
   total_views: Total Views
   total_visitors: Total Visitors
+  cdn: CDN by
+  hosted: Hosted by
 
 counter:
   tag_cloud:

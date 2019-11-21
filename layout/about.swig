@@ -10,7 +10,7 @@
 							<div class="slide-contents">
 								<div class="slide">
 									<h2 class="im-sean">
-										<figure class="transistion"><img src="/images/about/masthead/im-hoke.svg" ></figure>
+										<figure class="transistion"><img src="https://upyun.hoke58.cn/about/masthead/im-hoke.svg" ></figure>
 									</h2>				
 									<p class="header-desc">一名追求简单实用的运维开发工程师。</p>
 								</div>
@@ -23,7 +23,7 @@
 	<div class="masthead-wrap">
 	
 		<div id="masthead">
-			<div id="earth-holder"><img src="/images/about/masthead/land.svg" ></div>
+			<div id="earth-holder"><img src="https://upyun.hoke58.cn/about/masthead/land.svg" ></div>
 		</div>
 	</div>
 </section>
@@ -50,7 +50,7 @@
                                 
                                     <figure>
                                     
-                                        <img src="/images/about/purpose/me.svg" >
+                                        <img src="https://upyun.hoke58.cn/about/purpose/me.svg" >
                                     
                                     </figure>
                                 
@@ -83,7 +83,7 @@
                                 
                                     <figure>
                                     
-                                        <img src="/images/about/purpose/me-dev.svg" >
+                                        <img src="https://upyun.hoke58.cn/about/purpose/me-dev.svg" >
                                     
                                     </figure>
                                 
@@ -112,7 +112,7 @@
                             
                                     <div class="home-left-info">
                                         <figure>
-                                            <img src="/images/about/contact/wechat.jpg" >
+                                            <img src="https://upyun.hoke58.cn/about/contact/wechat.jpg" >
                                         </figure>
                                     
                                         <div class="bubble right">

@@ -1,34 +1,26 @@
 // Header
 // --------------------------------------------------
 .header {
-  background: $greenmask ;
+  background: var(--greenmask);
 }
 
 .header-inner {
   clearfix();
   align-items: center;
   display: flex;
-  justify-content: center;
   padding: 20px 0;
 
   +mobile() {
     display: block;
-    padding: 10px;
+    padding: 10px 0;
     width: auto;
   }
 }
 
 .site-meta {
-  float: left;
   line-height: normal;
-  margin-left: -20px;
-
-  +mobile() {
-    margin-left: 10px;
-  }
 
   .brand {
-    background: none;
     padding: 2px 1px;
 
     +mobile() {
@@ -38,6 +30,34 @@
 
   .site-title {
     font-weight: bolder;
+  }
+}
+
+.logo-line-before, .logo-line-after {
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 75%;
+
+  +mobile() {
+    display: none;
+  }
+
+  i {
+    background: var(--brand-color);
+    display: block;
+    height: 2px;
+    position: relative;
+  }
+}
+
+.use-motion {
+  .logo-line-before i {
+    left: -100%;
+  }
+
+  .logo-line-after i {
+    right: -100%;
   }
 }
 
